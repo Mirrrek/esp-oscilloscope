@@ -1,0 +1,12 @@
+appId: com.marcsportiello.esposcilloscope
+productName: ESP Oscilloscope
+copyright: Copyright © 2023 Marc Sportiello
+directories:
+    output: dist
+    buildResources: resources
+files:
+    - from: .
+      filter:
+          - package.json
+          - app
+publish: null
